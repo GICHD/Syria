@@ -109,6 +109,26 @@
 <li class="toctree-l3"><a class="reference internal" href="#idp-camp-name">idp_camp_name</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#risk-education-details">Risk Education Details</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#re-category">re_category</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#re-activity">re_activity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#re-sessions-no">re_sessions_no</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#location-type">location_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#session-date">session_date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#start-time">start_time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#end-time">end_time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#train-the-trainer">train_the_trainer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mine-erw-safety-brief">mine_erw_safety_brief</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#direct-re">direct_re</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#direct-method-type">direct_method_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indirect-re">indirect_re</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indirect-method-type">indirect_method_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#broadcast-start-date">broadcast_start_date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#broadcast-end-date">broadcast_end_date</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-activities">other_activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-activities-type">other_activities_type</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="cis.html">CIS</a></li>
@@ -214,6 +234,26 @@
 <li><a class="reference internal" href="#idp-camp-name" id="id25">idp_camp_name</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#risk-education-details" id="id26">Risk Education Details</a><ul>
+<li><a class="reference internal" href="#re-category" id="id27">re_category</a></li>
+<li><a class="reference internal" href="#re-activity" id="id28">re_activity</a></li>
+<li><a class="reference internal" href="#re-sessions-no" id="id29">re_sessions_no</a></li>
+<li><a class="reference internal" href="#location-type" id="id30">location_type</a></li>
+<li><a class="reference internal" href="#session-date" id="id31">session_date</a></li>
+<li><a class="reference internal" href="#start-time" id="id32">start_time</a></li>
+<li><a class="reference internal" href="#end-time" id="id33">end_time</a></li>
+<li><a class="reference internal" href="#train-the-trainer" id="id34">train_the_trainer</a></li>
+<li><a class="reference internal" href="#mine-erw-safety-brief" id="id35">mine_erw_safety_brief</a></li>
+<li><a class="reference internal" href="#direct-re" id="id36">direct_re</a></li>
+<li><a class="reference internal" href="#direct-method-type" id="id37">direct_method_type</a></li>
+<li><a class="reference internal" href="#indirect-re" id="id38">indirect_re</a></li>
+<li><a class="reference internal" href="#indirect-method-type" id="id39">indirect_method_type</a></li>
+<li><a class="reference internal" href="#broadcast-start-date" id="id40">broadcast_start_date</a></li>
+<li><a class="reference internal" href="#broadcast-end-date" id="id41">broadcast_end_date</a></li>
+<li><a class="reference internal" href="#other-activities" id="id42">other_activities</a></li>
+<li><a class="reference internal" href="#other-activities-type" id="id43">other_activities_type</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -246,14 +286,11 @@
 <tr class="row-even"><td>Unique</td>
 <td><strong>Yes</strong></td>
 </tr>
-<tr class="row-odd"><td>Hidden</td>
-<td>&#160;</td>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Report ID</td>
 </tr>
-<tr class="row-even"><td>Suggested Text</td>
-<td><code class="docutils literal notranslate"><span class="pre">Report</span> <span class="pre">ID</span></code></td>
-</tr>
-<tr class="row-odd"><td>Arabic Label</td>
-<td><code class="docutils literal notranslate"><span class="pre">رقم</span> <span class="pre">التقرير</span></code></td>
+<tr class="row-even"><td>Arabic Label</td>
+<td>رقم التقرير</td>
 </tr>
 </tbody>
 </table>
@@ -270,17 +307,11 @@
 <tr class="row-odd"><td>Type</td>
 <td>Date</td>
 </tr>
-<tr class="row-even"><td>Calculation</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>Mandatory</td>
+<tr class="row-even"><td>Mandatory</td>
 <td><strong>Yes</strong></td>
 </tr>
-<tr class="row-even"><td>Unique</td>
+<tr class="row-odd"><td>Unique</td>
 <td><strong>Yes</strong></td>
-</tr>
-<tr class="row-odd"><td>Hidden</td>
-<td>&#160;</td>
 </tr>
 <tr class="row-even"><td>Default Value</td>
 <td><code class="docutils literal notranslate"><span class="pre">now()</span></code></td>
@@ -304,31 +335,22 @@
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Type</td>
-<td>select_one</td>
+<td>Select_one</td>
 </tr>
 <tr class="row-even"><td>Selection</td>
 <td>Will be provided for each organization</td>
 </tr>
-<tr class="row-odd"><td>Calculation</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Mandatory</td>
+<tr class="row-odd"><td>Mandatory</td>
 <td><strong>Yes</strong></td>
 </tr>
-<tr class="row-odd"><td>Unique</td>
+<tr class="row-even"><td>Unique</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-even"><td>Hidden</td>
-<td>&#160;</td>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Organisation</td>
 </tr>
-<tr class="row-odd"><td>Default Value</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Suggested Text</td>
-<td><code class="docutils literal notranslate"><span class="pre">Organisation</span></code></td>
-</tr>
-<tr class="row-odd"><td>Arabic Label</td>
-<td><code class="docutils literal notranslate"><span class="pre">المنظمة</span></code></td>
+<tr class="row-even"><td>Arabic Label</td>
+<td>المنظمة</td>
 </tr>
 </tbody>
 </table>
@@ -343,7 +365,7 @@
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Type</td>
-<td>select_one</td>
+<td>Select_one</td>
 </tr>
 <tr class="row-even"><td>Selection</td>
 <td><ul class="first last simple">
@@ -353,25 +375,16 @@
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td>Calculation</td>
+<tr class="row-odd"><td>Mandatory</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-even"><td>Mandatory</td>
+<tr class="row-even"><td>Unique</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-odd"><td>Unique</td>
-<td>&#160;</td>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Select Area of operations</td>
 </tr>
-<tr class="row-even"><td>Hidden</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>Default Value</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Suggested Text</td>
-<td><code class="docutils literal notranslate"><span class="pre">Select</span> <span class="pre">Area</span> <span class="pre">of</span> <span class="pre">operations</span></code></td>
-</tr>
-<tr class="row-odd"><td>Arabic Label</td>
+<tr class="row-even"><td>Arabic Label</td>
 <td>&#160;</td>
 </tr>
 </tbody>
@@ -387,31 +400,22 @@
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Type</td>
-<td>select_one</td>
+<td>Select_one</td>
 </tr>
 <tr class="row-even"><td>Selection</td>
 <td>Will be provided for each organization</td>
 </tr>
-<tr class="row-odd"><td>Calculation</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Mandatory</td>
+<tr class="row-odd"><td>Mandatory</td>
 <td><strong>Yes</strong></td>
 </tr>
-<tr class="row-odd"><td>Unique</td>
+<tr class="row-even"><td>Unique</td>
 <td>&#160;</td>
 </tr>
-<tr class="row-even"><td>Hidden</td>
-<td>&#160;</td>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Team</td>
 </tr>
-<tr class="row-odd"><td>Default Value</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Suggested Text</td>
-<td><code class="docutils literal notranslate"><span class="pre">Team</span></code></td>
-</tr>
-<tr class="row-odd"><td>Arabic Label</td>
-<td><code class="docutils literal notranslate"><span class="pre">الفريق</span></code></td>
+<tr class="row-even"><td>Arabic Label</td>
+<td>الفريق</td>
 </tr>
 </tbody>
 </table>
@@ -422,6 +426,7 @@
 <p>to link the activity to a location, depending on the gazetteer published by the UNOCHA for Syria. Contact UNMAS to know which version is being used.</p>
 <div class="section" id="admin1">
 <h3><a class="toc-backref" href="#id10">admin1</a><a class="headerlink" href="#admin1" title="Permalink to this headline">¶</a></h3>
+<p>The governorate <em>P-Code</em> in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="22%" />
@@ -429,79 +434,629 @@
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Type</td>
-<td>select_one</td>
+<td>Select_one</td>
 </tr>
 <tr class="row-even"><td>Selection</td>
-<td>Will be provided for each organization</td>
+<td>The list of Governorate from the Syrian Gazetteer</td>
 </tr>
-<tr class="row-odd"><td>Calculation</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Mandatory</td>
+<tr class="row-odd"><td>Mandatory</td>
 <td><strong>Yes</strong></td>
 </tr>
-<tr class="row-odd"><td>Unique</td>
-<td>&#160;</td>
+<tr class="row-even"><td>Unique</td>
+<td><strong>Yes</strong></td>
 </tr>
-<tr class="row-even"><td>Hidden</td>
-<td>&#160;</td>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Governorate</td>
 </tr>
-<tr class="row-odd"><td>Default Value</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Suggested Text</td>
-<td><code class="docutils literal notranslate"><span class="pre">Organisation</span></code></td>
-</tr>
-<tr class="row-odd"><td>Arabic Label</td>
-<td><code class="docutils literal notranslate"><span class="pre">المنظمة</span></code></td>
+<tr class="row-even"><td>Arabic Label</td>
+<td>المحافظة</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="admin1-name">
 <h3><a class="toc-backref" href="#id11">admin1_name</a><a class="headerlink" href="#admin1-name" title="Permalink to this headline">¶</a></h3>
+<p>This will contain the governorate/admin1 name in English and will be used in the database</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Hidden</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Governorate (en)</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin2">
 <h3><a class="toc-backref" href="#id12">admin2</a><a class="headerlink" href="#admin2" title="Permalink to this headline">¶</a></h3>
+<p>The district/admin2 <em>P-Code</em> in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td>The list of districts from the Syrian Gazetteer</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>District</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>المنطقة</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin2-name">
 <h3><a class="toc-backref" href="#id13">admin2_name</a><a class="headerlink" href="#admin2-name" title="Permalink to this headline">¶</a></h3>
+<p>This will contain the district/admin2 name in English and will be used in the database.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Hidden</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>District (en)</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin3">
 <h3><a class="toc-backref" href="#id14">admin3</a><a class="headerlink" href="#admin3" title="Permalink to this headline">¶</a></h3>
+<p>The sub-district/admin3 <em>P-Code</em> in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td>The list of sub-districts from the Syrian Gazetteer</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Sub-District</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>الناحية</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin3-name">
 <h3><a class="toc-backref" href="#id15">admin3_name</a><a class="headerlink" href="#admin3-name" title="Permalink to this headline">¶</a></h3>
+<p>This will contain the sub-district/admin3 English name and will be used in the database</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Hidden</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Sub-District (en)</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin4">
 <h3><a class="toc-backref" href="#id16">admin4</a><a class="headerlink" href="#admin4" title="Permalink to this headline">¶</a></h3>
+<p>The community/admin4 or the nearest community to the location <em>P-Code</em> in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td>The list of communities from the Syrian Gazetteer</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Community</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>قرية/مدينة</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="admin4-name">
 <h3><a class="toc-backref" href="#id17">admin4_name</a><a class="headerlink" href="#admin4-name" title="Permalink to this headline">¶</a></h3>
+<p>This will contain the community/admin4 English name and will be used in the database.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Hidden</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Community (en)</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="neighbourhood">
 <h3><a class="toc-backref" href="#id18">neighbourhood</a><a class="headerlink" href="#neighbourhood" title="Permalink to this headline">¶</a></h3>
+<p>In case of large urban communities, it is highly recommend to enter the neighborhood name. It is advice to have it written in English as it was agreed among all stakeholders.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Hidden</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Neighbourhood</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>الحي</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="geo-safe">
 <h3><a class="toc-backref" href="#id19">geo_safe</a><a class="headerlink" href="#geo-safe" title="Permalink to this headline">¶</a></h3>
+<p>Is it safe to collect geopoint information from the group, and with their consent, this will be used mainly in case of areas that could put the enumerators in harms way by collecting the geo information.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">yes</span></code>: Yes</li>
+<li>‘’no’’ : No</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Is it safe to record a geo location for this RE Activity</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="community-coordinates">
 <h3><a class="toc-backref" href="#id20">community_coordinates</a><a class="headerlink" href="#community-coordinates" title="Permalink to this headline">¶</a></h3>
+<p>The lat/long location of the risk education session. Captured using a GPS device of the mobile devices.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>GeoPoint</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Capture the location of the RE Activity</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="re-latitude">
 <h3><a class="toc-backref" href="#id21">re_latitude</a><a class="headerlink" href="#re-latitude" title="Permalink to this headline">¶</a></h3>
+<p>For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>decimal / Calculated</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Latitude</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="re-longitude">
 <h3><a class="toc-backref" href="#id22">re_longitude</a><a class="headerlink" href="#re-longitude" title="Permalink to this headline">¶</a></h3>
+<p>For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>decimal / Calculated</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Longitude</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="re-gps-accuracy">
 <h3><a class="toc-backref" href="#id23">re_gps_accuracy</a><a class="headerlink" href="#re-gps-accuracy" title="Permalink to this headline">¶</a></h3>
+<p>For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>decimal / Calculated</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>GPS Accuracy (in meters)</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>دقة نظام تحديد المواقع (بوحدة المتر)</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="idp-camp">
 <h3><a class="toc-backref" href="#id24">idp_camp</a><a class="headerlink" href="#idp-camp" title="Permalink to this headline">¶</a></h3>
+<p>This question will verify if that location is an IDP camp or not.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">yes</span></code>: Yes</li>
+<li>‘’no’’ : No</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Is the location an IDP camp?</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>هل يعد هذا الموقع مخيم للنازحين؟</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="idp-camp-name">
 <h3><a class="toc-backref" href="#id25">idp_camp_name</a><a class="headerlink" href="#idp-camp-name" title="Permalink to this headline">¶</a></h3>
+<p>In case if this location is an IDP camp then please provide the name of the IDP camp.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Name of the camp</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>إن وجد, أدخل رمز المنطقة او اسم المخيم</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="risk-education-details">
+<h2><a class="toc-backref" href="#id26">Risk Education Details</a><a class="headerlink" href="#risk-education-details" title="Permalink to this headline">¶</a></h2>
+<p>Risk Education compose of different activities that targets the people in need. For data collection porpoises the Syria program adopt a structure for classification and categorizing risk education activities conducted in Syria. As depicted in the diagram below.</p>
+<div class="figure">
+<img alt="../_images/resyria.png" src="../_images/resyria.png" />
+</div>
+<dl class="docutils">
+<dt>All activities in Syria are categories under three main groups :</dt>
+<dd><ul class="first last simple">
+<li>Direct</li>
+<li>Indirect</li>
+<li>Training</li>
+</ul>
+</dd>
+</dl>
+<p>Each group composed of different activities as organized by color.</p>
+<div class="section" id="re-category">
+<h3><a class="toc-backref" href="#id27">re_category</a><a class="headerlink" href="#re-category" title="Permalink to this headline">¶</a></h3>
+<p>What is the category of this group, a list is provided please make sure that you use one of the items listed in the “Options” Sheet under “re_category”</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">direct</span></code>: Direct</li>
+<li><code class="docutils literal notranslate"><span class="pre">indirect</span></code>: Indirect</li>
+<li><code class="docutils literal notranslate"><span class="pre">training</span></code>: Training</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Risk Education Category</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>حدد نوع التوعية</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="re-activity">
+<h3><a class="toc-backref" href="#id28">re_activity</a><a class="headerlink" href="#re-activity" title="Permalink to this headline">¶</a></h3>
+<p>Depending on the category selected these activities will be listed below.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><dl class="first docutils">
+<dt><strong>Direct</strong></dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">safety_briefing</span></code>: Safety Briefing</li>
+<li><code class="docutils literal notranslate"><span class="pre">directre</span></code>: Direct Risk Education</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Indirect</strong></dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">materialdistribution</span></code>: Material Distribution</li>
+<li><code class="docutils literal notranslate"><span class="pre">materialhandover</span></code>: Material handover</li>
+<li><code class="docutils literal notranslate"><span class="pre">radio</span></code>: Radio</li>
+<li><code class="docutils literal notranslate"><span class="pre">tv</span></code>: Television</li>
+<li><code class="docutils literal notranslate"><span class="pre">video</span></code>: Video</li>
+<li><code class="docutils literal notranslate"><span class="pre">socialmedia</span></code>: Social Media</li>
+<li><code class="docutils literal notranslate"><span class="pre">printedpress</span></code>: Printed press (newspapers, magazines)</li>
+<li><strong>Training</strong></li>
+<li><code class="docutils literal notranslate"><span class="pre">tot</span></code>: Training of Teachers (ToT)</li>
+<li><code class="docutils literal notranslate"><span class="pre">cfp</span></code>: Community Focal Point (CFP)</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Dependency</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Depend on Data Field</td>
+<td>re_category</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Type of Activity</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>حدد نوع النشاط</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="re-sessions-no">
+<h3><a class="toc-backref" href="#id29">re_sessions_no</a><a class="headerlink" href="#re-sessions-no" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="location-type">
+<h3><a class="toc-backref" href="#id30">location_type</a><a class="headerlink" href="#location-type" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="session-date">
+<h3><a class="toc-backref" href="#id31">session_date</a><a class="headerlink" href="#session-date" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="start-time">
+<h3><a class="toc-backref" href="#id32">start_time</a><a class="headerlink" href="#start-time" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="end-time">
+<h3><a class="toc-backref" href="#id33">end_time</a><a class="headerlink" href="#end-time" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="train-the-trainer">
+<h3><a class="toc-backref" href="#id34">train_the_trainer</a><a class="headerlink" href="#train-the-trainer" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="mine-erw-safety-brief">
+<h3><a class="toc-backref" href="#id35">mine_erw_safety_brief</a><a class="headerlink" href="#mine-erw-safety-brief" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="direct-re">
+<h3><a class="toc-backref" href="#id36">direct_re</a><a class="headerlink" href="#direct-re" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="direct-method-type">
+<h3><a class="toc-backref" href="#id37">direct_method_type</a><a class="headerlink" href="#direct-method-type" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="indirect-re">
+<h3><a class="toc-backref" href="#id38">indirect_re</a><a class="headerlink" href="#indirect-re" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="indirect-method-type">
+<h3><a class="toc-backref" href="#id39">indirect_method_type</a><a class="headerlink" href="#indirect-method-type" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="broadcast-start-date">
+<h3><a class="toc-backref" href="#id40">broadcast_start_date</a><a class="headerlink" href="#broadcast-start-date" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="broadcast-end-date">
+<h3><a class="toc-backref" href="#id41">broadcast_end_date</a><a class="headerlink" href="#broadcast-end-date" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="other-activities">
+<h3><a class="toc-backref" href="#id42">other_activities</a><a class="headerlink" href="#other-activities" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="other-activities-type">
+<h3><a class="toc-backref" href="#id43">other_activities_type</a><a class="headerlink" href="#other-activities-type" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 </div>
