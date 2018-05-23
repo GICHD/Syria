@@ -112,17 +112,13 @@
 <li class="toctree-l2"><a class="reference internal" href="#risk-education-details">Risk Education Details</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#re-category">re_category</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#re-activity">re_activity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#re-activity-other">re_activity_other</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#re-method">re_method</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#re-sessions-no">re_sessions_no</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#location-type">location_type</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#session-date">session_date</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#start-time">start_time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#end-time">end_time</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#train-the-trainer">train_the_trainer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mine-erw-safety-brief">mine_erw_safety_brief</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#direct-re">direct_re</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#direct-method-type">direct_method_type</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#indirect-re">indirect_re</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#indirect-method-type">indirect_method_type</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#broadcast-start-date">broadcast_start_date</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#broadcast-end-date">broadcast_end_date</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#other-activities">other_activities</a></li>
@@ -237,21 +233,17 @@
 <li><a class="reference internal" href="#risk-education-details" id="id26">Risk Education Details</a><ul>
 <li><a class="reference internal" href="#re-category" id="id27">re_category</a></li>
 <li><a class="reference internal" href="#re-activity" id="id28">re_activity</a></li>
-<li><a class="reference internal" href="#re-sessions-no" id="id29">re_sessions_no</a></li>
-<li><a class="reference internal" href="#location-type" id="id30">location_type</a></li>
-<li><a class="reference internal" href="#session-date" id="id31">session_date</a></li>
-<li><a class="reference internal" href="#start-time" id="id32">start_time</a></li>
-<li><a class="reference internal" href="#end-time" id="id33">end_time</a></li>
-<li><a class="reference internal" href="#train-the-trainer" id="id34">train_the_trainer</a></li>
-<li><a class="reference internal" href="#mine-erw-safety-brief" id="id35">mine_erw_safety_brief</a></li>
-<li><a class="reference internal" href="#direct-re" id="id36">direct_re</a></li>
-<li><a class="reference internal" href="#direct-method-type" id="id37">direct_method_type</a></li>
-<li><a class="reference internal" href="#indirect-re" id="id38">indirect_re</a></li>
-<li><a class="reference internal" href="#indirect-method-type" id="id39">indirect_method_type</a></li>
-<li><a class="reference internal" href="#broadcast-start-date" id="id40">broadcast_start_date</a></li>
-<li><a class="reference internal" href="#broadcast-end-date" id="id41">broadcast_end_date</a></li>
-<li><a class="reference internal" href="#other-activities" id="id42">other_activities</a></li>
-<li><a class="reference internal" href="#other-activities-type" id="id43">other_activities_type</a></li>
+<li><a class="reference internal" href="#re-activity-other" id="id29">re_activity_other</a></li>
+<li><a class="reference internal" href="#re-method" id="id30">re_method</a></li>
+<li><a class="reference internal" href="#re-sessions-no" id="id31">re_sessions_no</a></li>
+<li><a class="reference internal" href="#location-type" id="id32">location_type</a></li>
+<li><a class="reference internal" href="#session-date" id="id33">session_date</a></li>
+<li><a class="reference internal" href="#start-time" id="id34">start_time</a></li>
+<li><a class="reference internal" href="#end-time" id="id35">end_time</a></li>
+<li><a class="reference internal" href="#broadcast-start-date" id="id36">broadcast_start_date</a></li>
+<li><a class="reference internal" href="#broadcast-end-date" id="id37">broadcast_end_date</a></li>
+<li><a class="reference internal" href="#other-activities" id="id38">other_activities</a></li>
+<li><a class="reference internal" href="#other-activities-type" id="id39">other_activities_type</a></li>
 </ul>
 </li>
 </ul>
@@ -371,7 +363,8 @@
 <td><ul class="first last simple">
 <li><code class="docutils literal notranslate"><span class="pre">ne_syria</span></code>: North East Syria</li>
 <li><code class="docutils literal notranslate"><span class="pre">nw_syria</span></code>: North West Syria</li>
-<li><code class="docutils literal notranslate"><span class="pre">south_syria</span></code>: South Syria`</li>
+<li><code class="docutils literal notranslate"><span class="pre">south_syria</span></code>: South Syria</li>
+<li><code class="docutils literal notranslate"><span class="pre">damascus</span></code>: Damascus</li>
 </ul>
 </td>
 </tr>
@@ -964,7 +957,7 @@
 <tr class="row-even"><td>Selection</td>
 <td><ul class="first last simple">
 <li><dl class="first docutils">
-<dt><strong>Direct</strong></dt>
+<dt>Category = <strong>Direct</strong></dt>
 <dd><ul class="first last">
 <li><code class="docutils literal notranslate"><span class="pre">safety_briefing</span></code>: Safety Briefing</li>
 <li><code class="docutils literal notranslate"><span class="pre">directre</span></code>: Direct Risk Education</li>
@@ -973,7 +966,7 @@
 </dl>
 </li>
 <li><dl class="first docutils">
-<dt><strong>Indirect</strong></dt>
+<dt>Category = <strong>Indirect</strong></dt>
 <dd><ul class="first last">
 <li><code class="docutils literal notranslate"><span class="pre">materialdistribution</span></code>: Material Distribution</li>
 <li><code class="docutils literal notranslate"><span class="pre">materialhandover</span></code>: Material handover</li>
@@ -982,7 +975,13 @@
 <li><code class="docutils literal notranslate"><span class="pre">video</span></code>: Video</li>
 <li><code class="docutils literal notranslate"><span class="pre">socialmedia</span></code>: Social Media</li>
 <li><code class="docutils literal notranslate"><span class="pre">printedpress</span></code>: Printed press (newspapers, magazines)</li>
-<li><strong>Training</strong></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Category = <strong>Training</strong></dt>
+<dd><ul class="first last">
 <li><code class="docutils literal notranslate"><span class="pre">tot</span></code>: Training of Teachers (ToT)</li>
 <li><code class="docutils literal notranslate"><span class="pre">cfp</span></code>: Community Focal Point (CFP)</li>
 </ul>
@@ -1013,50 +1012,351 @@
 </tbody>
 </table>
 </div>
+<div class="section" id="re-activity-other">
+<h3><a class="toc-backref" href="#id29">re_activity_other</a><a class="headerlink" href="#re-activity-other" title="Permalink to this headline">¶</a></h3>
+<p>In case the Risk Education Activity selected was -Other- then we will require to understand what type of activity was conducted.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Text</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Please describe the other activity</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>اشرح نوع النشاط الاخر</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="re-method">
+<h3><a class="toc-backref" href="#id30">re_method</a><a class="headerlink" href="#re-method" title="Permalink to this headline">¶</a></h3>
+<p>In case the Risk Education category is direct you will need to identify which method was used based on the selection below</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">interactive_group_session</span></code>: Interactive group session</li>
+<li><code class="docutils literal notranslate"><span class="pre">house_to_house</span></code>: House to house</li>
+<li><code class="docutils literal notranslate"><span class="pre">focus_group_discussion</span></code>: Focus group discussionTraining</li>
+<li><code class="docutils literal notranslate"><span class="pre">peer_to_peer</span></code>: Peer-to-peer</li>
+<li><code class="docutils literal notranslate"><span class="pre">theatre</span></code>: Training</li>
+<li><code class="docutils literal notranslate"><span class="pre">other</span></code>: Other</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>What method was used to deliver the activity?</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>ما االطريقة المستخدمة لإيصال جلسة التوعية؟</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="section" id="re-sessions-no">
-<h3><a class="toc-backref" href="#id29">re_sessions_no</a><a class="headerlink" href="#re-sessions-no" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id31">re_sessions_no</a><a class="headerlink" href="#re-sessions-no" title="Permalink to this headline">¶</a></h3>
+<p>The number of session conducted and reported in a single report, minimum value is 1.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Number</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Number of Sessions conducted</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>عدد جلسات التوعية التي تمت</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="location-type">
-<h3><a class="toc-backref" href="#id30">location_type</a><a class="headerlink" href="#location-type" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id32">location_type</a><a class="headerlink" href="#location-type" title="Permalink to this headline">¶</a></h3>
+<p>The location in which the activity has been conducted.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">camp</span></code>: Camp</li>
+<li><code class="docutils literal notranslate"><span class="pre">child_friendly_space</span></code>: Child-friendly</li>
+<li><code class="docutils literal notranslate"><span class="pre">community_centre</span></code>: Community center</li>
+<li><code class="docutils literal notranslate"><span class="pre">education_facility</span></code>: Education facility</li>
+<li><code class="docutils literal notranslate"><span class="pre">farm</span></code>: Farm</li>
+<li><code class="docutils literal notranslate"><span class="pre">household</span></code>: Household</li>
+<li><code class="docutils literal notranslate"><span class="pre">market</span></code>: Market</li>
+<li><code class="docutils literal notranslate"><span class="pre">medical_facility</span></code>: Medical facility</li>
+<li><code class="docutils literal notranslate"><span class="pre">religious_site</span></code>: Religious site</li>
+<li><code class="docutils literal notranslate"><span class="pre">Other</span></code>: Other</li>
+<li><code class="docutils literal notranslate"><span class="pre">indirect</span></code>: Indirect</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Where was the session conducted?</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>اين اقيمت الجلسه؟</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="session-date">
-<h3><a class="toc-backref" href="#id31">session_date</a><a class="headerlink" href="#session-date" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id33">session_date</a><a class="headerlink" href="#session-date" title="Permalink to this headline">¶</a></h3>
+<p>The date that the risk education session took place. This is the actual date of the session and it could be different form the report date.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Date</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>The session Date</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>تاريخ الجلسة</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="start-time">
-<h3><a class="toc-backref" href="#id32">start_time</a><a class="headerlink" href="#start-time" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id34">start_time</a><a class="headerlink" href="#start-time" title="Permalink to this headline">¶</a></h3>
+<p>The time that the risk education session started. This is the actual time that the session started.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Time</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Start Date</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>وقت البدء</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="end-time">
-<h3><a class="toc-backref" href="#id33">end_time</a><a class="headerlink" href="#end-time" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="train-the-trainer">
-<h3><a class="toc-backref" href="#id34">train_the_trainer</a><a class="headerlink" href="#train-the-trainer" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="mine-erw-safety-brief">
-<h3><a class="toc-backref" href="#id35">mine_erw_safety_brief</a><a class="headerlink" href="#mine-erw-safety-brief" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="direct-re">
-<h3><a class="toc-backref" href="#id36">direct_re</a><a class="headerlink" href="#direct-re" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="direct-method-type">
-<h3><a class="toc-backref" href="#id37">direct_method_type</a><a class="headerlink" href="#direct-method-type" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="indirect-re">
-<h3><a class="toc-backref" href="#id38">indirect_re</a><a class="headerlink" href="#indirect-re" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="indirect-method-type">
-<h3><a class="toc-backref" href="#id39">indirect_method_type</a><a class="headerlink" href="#indirect-method-type" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id35">end_time</a><a class="headerlink" href="#end-time" title="Permalink to this headline">¶</a></h3>
+<p>The time that the risk education session ended. This is the actual time that the session ended.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Time</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>End Date</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>وقت النهاية</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="broadcast-start-date">
-<h3><a class="toc-backref" href="#id40">broadcast_start_date</a><a class="headerlink" href="#broadcast-start-date" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id36">broadcast_start_date</a><a class="headerlink" href="#broadcast-start-date" title="Permalink to this headline">¶</a></h3>
+<p>When the operator conduct a campaign using either TV, radio, Social media or News Paper, this is the data that this campaign started.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Date</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Broadcast start date</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>تاريخ بدء النشر</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="broadcast-end-date">
-<h3><a class="toc-backref" href="#id41">broadcast_end_date</a><a class="headerlink" href="#broadcast-end-date" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id37">broadcast_end_date</a><a class="headerlink" href="#broadcast-end-date" title="Permalink to this headline">¶</a></h3>
+<p>When the operator conduct a campaign using either TV, radio, Social media or News Paper, this is the data that this campaign ended.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Date</td>
+</tr>
+<tr class="row-even"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-odd"><td>Unique</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Suggested Text</td>
+<td>Broadcast end date</td>
+</tr>
+<tr class="row-odd"><td>Arabic Label</td>
+<td>تاريخ بدء النشر</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="other-activities">
-<h3><a class="toc-backref" href="#id42">other_activities</a><a class="headerlink" href="#other-activities" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id38">other_activities</a><a class="headerlink" href="#other-activities" title="Permalink to this headline">¶</a></h3>
+<p>The aim of this data field is to gather if there is any other activities has been conducted during the risk education and are relative to the mine action.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">yes</span></code>: Yes</li>
+<li>‘’no’’ : No</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Were there other activities conducted along side the RE ?</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>هل هناك نشاطات اخرى اقيمت مع هذه الجلسة حول التوعيه بالمخاطر؟</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="other-activities-type">
-<h3><a class="toc-backref" href="#id43">other_activities_type</a><a class="headerlink" href="#other-activities-type" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id39">other_activities_type</a><a class="headerlink" href="#other-activities-type" title="Permalink to this headline">¶</a></h3>
+<p>In the case of there was other activities conducted, please selected one or more of the following.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Type</td>
+<td>Select_one</td>
+</tr>
+<tr class="row-even"><td>Selection</td>
+<td><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">agriculture</span></code>: Agriculture</li>
+<li><code class="docutils literal notranslate"><span class="pre">casualty_data_collection</span></code>: Casualty data collection</li>
+<li><code class="docutils literal notranslate"><span class="pre">child_protection</span></code>: Child protection</li>
+<li><code class="docutils literal notranslate"><span class="pre">explosive_hazard_removal</span></code>: Explosive hazard removal</li>
+<li><code class="docutils literal notranslate"><span class="pre">hazard_data_collection</span></code>: Hazard data collection</li>
+<li><code class="docutils literal notranslate"><span class="pre">healthcare</span></code>: Healthcare</li>
+<li><code class="docutils literal notranslate"><span class="pre">infrastructure_rehabilitation</span></code>: Infrastructure rehabilitation</li>
+<li><code class="docutils literal notranslate"><span class="pre">marking_of_hazards</span></code>: Marking of hazards</li>
+<li><code class="docutils literal notranslate"><span class="pre">refugee_idp_resettlement</span></code>: Refugee/IDP resettlement</li>
+<li><code class="docutils literal notranslate"><span class="pre">Other</span></code>: Other</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mandatory</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Unique</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Suggested Text</td>
+<td>Where was the session conducted?</td>
+</tr>
+<tr class="row-even"><td>Arabic Label</td>
+<td>اين اقيمت الجلسه؟</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
