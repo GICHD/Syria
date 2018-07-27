@@ -7,10 +7,12 @@ Risk Education Form
 
 This is the main form used to collect data regarding the Risk Education Activity in Syria.
 
-form_version
+Form Version
 ------------
 Data field to reference the version of the form. Forms are ongoing modification and updating and require a mechanism to follow up on development. This is not a mandatory field and will be used mainly for of the form tracking. 
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | form_version                                                                        |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -27,11 +29,13 @@ General Information
 -------------------
 This group of data fields will provide the basic identification of each report submitted. It will use for searching, and quality management purposes. Also it will assist in the coordination process among partners. 
 
-id_re_sy
-^^^^^^^^
+Form ID 
+^^^^^^^
 
 This is the main report ID, each field report must be assigned a special report identification that is unique and can help distinguish reports by organizations. This will be assigned by UNMAS to each report received.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | id_re_sy                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -47,10 +51,12 @@ This is the main report ID, each field report must be assigned a special report 
 +------------------------+-------------------------------------------------------------------------------------+
 
 
-report_date
+Report Date
 ^^^^^^^^^^^
 The date the report was submitted. It is different from the activity date. 
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | report_date                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Date                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -65,10 +71,12 @@ The date the report was submitted. It is different from the activity date.
 | Arabic Label           | ``تاريخ التقرير``                                                                   |
 +------------------------+-------------------------------------------------------------------------------------+
 
-org_code
-^^^^^^^^
+Organisation Report ID
+^^^^^^^^^^^^^^^^^^^^^^
 The name of the organization conducting the risk education. Each partners will be assigned a unique identification number for security. Please consult with UNMAS for to be added to the system.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | org_code                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -84,10 +92,12 @@ The name of the organization conducting the risk education. Each partners will b
 +------------------------+-------------------------------------------------------------------------------------+
 
 
-op_region
-^^^^^^^^^
+Region 
+^^^^^^
 The region that this report is coming from, in Syria there are 4 regions. This field will assist in reporting of activities as per each region.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | op_region                                                                           |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -105,10 +115,12 @@ The region that this report is coming from, in Syria there are 4 regions. This f
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-team
-^^^^
+Team Identification
+^^^^^^^^^^^^^^^^^^^
 The team that collected the information by the Organization, this will be used in QM processing. Please refer back to UNMAS for the assigning a unique identification for your teams.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | team                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -128,10 +140,12 @@ Location Information
 --------------------
 to link the activity to a location, depending on the gazetteer published by the UNOCHA for Syria. Contact UNMAS to know which version is being used. 
 
-admin1
-^^^^^^
+Administrative Level 1
+^^^^^^^^^^^^^^^^^^^^^^
 The governorate *P-Code* in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin1                                                                              |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -147,10 +161,12 @@ The governorate *P-Code* in which the operations was conducted. The list will be
 +------------------------+-------------------------------------------------------------------------------------+
 
 
-admin1_name
-^^^^^^^^^^^
+Administrative Level 1 Name
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This will contain the governorate/admin1 name in English and will be used in the database
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin1_name                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -165,10 +181,12 @@ This will contain the governorate/admin1 name in English and will be used in the
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin2
-^^^^^^
+Administrative Level 2
+^^^^^^^^^^^^^^^^^^^^^^
 The district/admin2 *P-Code* in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin2                                                                              |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -183,10 +201,12 @@ The district/admin2 *P-Code* in which the operations was conducted. The list wil
 | Arabic Label           | المنطقة                                                                             |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin2_name
-^^^^^^^^^^^
+Administrative Level 2 Name
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This will contain the district/admin2 name in English and will be used in the database.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin2_name                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -201,10 +221,12 @@ This will contain the district/admin2 name in English and will be used in the da
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin3
-^^^^^^
+Administrative Level 3
+^^^^^^^^^^^^^^^^^^^^^^
 The sub-district/admin3 *P-Code* in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin3                                                                              |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -219,10 +241,12 @@ The sub-district/admin3 *P-Code* in which the operations was conducted. The list
 | Arabic Label           |  الناحية                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin3_name
-^^^^^^^^^^^
+Administrative Level 3 Name
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This will contain the sub-district/admin3 English name and will be used in the database
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin3_name                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -237,10 +261,12 @@ This will contain the sub-district/admin3 English name and will be used in the d
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin4
-^^^^^^
+Administrative Level 4
+^^^^^^^^^^^^^^^^^^^^^^
 The community/admin4 or the nearest community to the location *P-Code* in which the operations was conducted. The list will be build on the OCHA Gazetteer. Please check with UNMAS for the latest gazetteer used in system
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin4                                                                              |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -255,10 +281,12 @@ The community/admin4 or the nearest community to the location *P-Code* in which 
 | Arabic Label           |  قرية/مدينة                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 
-admin4_name
-^^^^^^^^^^^
+Administrative Level 4 Name
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This will contain the community/admin4 English name and will be used in the database.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | admin4_name                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -274,10 +302,12 @@ This will contain the community/admin4 English name and will be used in the data
 +------------------------+-------------------------------------------------------------------------------------+
 
 
-neighbourhood
-^^^^^^^^^^^^^
+Neighborhood Name
+^^^^^^^^^^^^^^^^^
 In case of large urban communities, it is highly recommend to enter the neighborhood name. It is advice to have it written in English as it was agreed among all stakeholders.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | neighborhood                                                                        |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -287,15 +317,17 @@ In case of large urban communities, it is highly recommend to enter the neighbor
 +------------------------+-------------------------------------------------------------------------------------+
 | Hidden                 | **Yes**                                                                             |
 +------------------------+-------------------------------------------------------------------------------------+
-| Suggested Text         |   Neighbourhood                                                                     |
+| Suggested Text         | Neighborhood                                                                        |
 +------------------------+-------------------------------------------------------------------------------------+
 | Arabic Label           |  الحي                                                                               |
 +------------------------+-------------------------------------------------------------------------------------+
 
-geo_safe
-^^^^^^^^
+Safety to Acquire GPS 
+^^^^^^^^^^^^^^^^^^^^^
 Is it safe to collect geopoint information from the group, and with their consent, this will be used mainly in case of areas that could put the enumerators in harms way by collecting the geo information.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | geo_safe                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -311,10 +343,12 @@ Is it safe to collect geopoint information from the group, and with their consen
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-community_coordinates
-^^^^^^^^^^^^^^^^^^^^^
+Community Center Coordinates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The lat/long location of the risk education session. Captured using a GPS device of the mobile devices.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | community_coordinates                                                               |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | GeoPoint                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -328,10 +362,12 @@ The lat/long location of the risk education session. Captured using a GPS device
 +------------------------+-------------------------------------------------------------------------------------+
 
 
-re_latitude
-^^^^^^^^^^^
+Latitude
+^^^^^^^^
 For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | re_latitude                                                                         |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | decimal / Calculated                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -344,10 +380,12 @@ For the database usage, this field will be calculated between the GPS point and 
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-re_longitude
-^^^^^^^^^^^^
+Longitude
+^^^^^^^^^
 For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | re_longitude                                                                        |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | decimal / Calculated                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -360,10 +398,12 @@ For the database usage, this field will be calculated between the GPS point and 
 | Arabic Label           |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 
-re_gps_accuracy
-^^^^^^^^^^^^^^^
+GPS Accuracy
+^^^^^^^^^^^^
 For the database usage, this field will be calculated between the GPS point and the gazetteer locations provided
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | re_gps_accuracy                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | decimal / Calculated                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -376,10 +416,12 @@ For the database usage, this field will be calculated between the GPS point and 
 | Arabic Label           |  دقة نظام تحديد المواقع (بوحدة المتر)                                               |
 +------------------------+-------------------------------------------------------------------------------------+
 
-idp_camp
+IDP Camp
 ^^^^^^^^
 This question will verify if that location is an IDP camp or not.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | idp_camp                                                                            |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Select_one                                                                          |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -395,10 +437,12 @@ This question will verify if that location is an IDP camp or not.
 | Arabic Label           |   هل يعد هذا الموقع مخيم للنازحين؟                                                  |
 +------------------------+-------------------------------------------------------------------------------------+
 
-idp_camp_name
+IDP Camp Name
 ^^^^^^^^^^^^^
 In case if this location is an IDP camp then please provide the name of the IDP camp.
 
++------------------------+-------------------------------------------------------------------------------------+
+| Field Name             | idp_camp_name                                                                       |
 +------------------------+-------------------------------------------------------------------------------------+
 | Type                   | Text                                                                                |
 +------------------------+-------------------------------------------------------------------------------------+
@@ -888,7 +932,7 @@ The aim of this data field is to verify if any posters were distributed during t
 | Selection              |- ``yes``: Yes                                                                       |
 |                        |- ''no'' : No                                                                        |
 +------------------------+-------------------------------------------------------------------------------------+
-| Mandatory              |                                                                                     |
+| Mandatory              | **Yes**                                                                             |
 +------------------------+-------------------------------------------------------------------------------------+
 | Unique                 |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
