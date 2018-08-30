@@ -598,7 +598,6 @@ The location in which the activity has been conducted.
 |                        |- ``medical_facility``: Medical facility                                             |
 |                        |- ``religious_site``: Religious site                                                 |
 |                        |- ``Other``: Other                                                                   |
-|                        |- ``indirect``: Indirect                                                             |
 +------------------------+-------------------------------------------------------------------------------------+
 | Mandatory              |                                                                                     |
 +------------------------+-------------------------------------------------------------------------------------+
